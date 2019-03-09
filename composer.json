@@ -3,6 +3,7 @@
     "description": "Laravel table comments loader (part of Diplodocker project)",
     "homepage": "https://github.com/diplodocker/comments-loader",
     "type": "library",
+    "keywords": ["laravel","migrations","diplodocker","laravel-package"],
     "license": "MIT",
     "minimum-stability": "dev",
     "require": {
