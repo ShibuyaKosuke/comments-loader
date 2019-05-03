@@ -3,7 +3,7 @@ Diplodocker project helpers
 
 ### Install
 * Install [laravel](https://laravel.com/docs/master/installation) =)
-* `composer require diplodocker/comments-loader --dev`
+* `composer require diplodocker/comments-loader`
 
 ### Use trait
 ```php
