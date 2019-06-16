@@ -1,5 +1,6 @@
 # Laravel table comments loader
 
+[![Build Status](https://travis-ci.org/diplodocker/comments-loader.svg?branch=master)](https://travis-ci.org/diplodocker/comments-loader)
 [![Made for Laravel](https://img.shields.io/badge/made%20for-laravel-orange.svg?style=flat&logo=Laravel)](https://laravel.com/)
 
 Diplodocker project helpers
