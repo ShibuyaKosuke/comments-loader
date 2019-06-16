@@ -25,4 +25,3 @@ class CommentsLoaderProvider extends ServiceProvider
         //
     }
 }
-
