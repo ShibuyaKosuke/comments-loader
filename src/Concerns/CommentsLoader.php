@@ -43,7 +43,7 @@ trait CommentsLoader
     private function getAlterQuery(string $table, string $comment): string
     {
         return sprintf(
-            'ALTER TABLE `%s%s` comment \'%s\'',
+            "ALTER TABLE `%s%s` comment '%s'",
             $this->getTablePrefix(),
             $table,
             $comment
