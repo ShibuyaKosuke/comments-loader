@@ -10,7 +10,22 @@ Diplodocker project helpers
 * Install [laravel](https://laravel.com/docs/master/installation) =)
 * `composer require diplodocker/comments-loader`
 
-### Use trait
+### Use class
+```php
+<?php
+
+use Diplodocker\CommentsLoaderMigration;
+
+class SomeMigrationFileName extends CommentsLoaderMigration
+{
+    public $comments = [
+        'users' => 'Users table',
+        'documents' => 'Documents table',
+        ...
+    ];
+
+```
+### Or use trait
 ```php
 <?php
 
@@ -48,20 +63,5 @@ class SomeMigrationFileName extends Migration
     {
         // your code here
     }
-
-```
-### Use class
-```php
-<?php
-
-use Diplodocker\CommentsLoaderMigration;
-
-class SomeMigrationFileName extends CommentsLoaderMigration
-{
-    public $comments = [
-        'users' => 'Users table',
-        'documents' => 'Documents table',
-        ...
-    ];
 
 ```
