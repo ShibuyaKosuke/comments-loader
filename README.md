@@ -4,7 +4,8 @@
 [![Made for Laravel](https://img.shields.io/badge/made%20for-laravel-orange.svg?style=flat&logo=Laravel&logoColor=fff)](https://laravel.com/)
 ![PHP from Packagist](https://img.shields.io/packagist/php-v/diplodocker/comments-loader.svg?color=8a92bb&logo=php&logoColor=fff)
 
-Diplodocker project helpers
+### Why should I use a package?
+[Because](https://github.com/laravel/framework/pull/17209#issuecomment-271296396)
 
 ### Install
 * Install [laravel](https://laravel.com/docs/master/installation) =)
