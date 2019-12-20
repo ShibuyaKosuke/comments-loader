@@ -8,8 +8,6 @@ use Illuminate\Support\Facades\DB;
 /**
  * Trait for the apply comments to tables
  * @see README.md
- * Trait CommentsLoader
- * @package Database\Concerns
  */
 trait CommentsLoader
 {

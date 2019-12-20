@@ -7,8 +7,6 @@ use Illuminate\Support\ServiceProvider;
 
 /**
  * Package service provider
- * Class CommentsLoaderProvider
- * @package Diplodocker
  */
 class CommentsLoaderProvider extends ServiceProvider
 {
@@ -17,11 +15,9 @@ class CommentsLoaderProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        //
     }
 
     public function register(): void
     {
-        //
     }
 }

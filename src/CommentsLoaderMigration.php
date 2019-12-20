@@ -8,8 +8,6 @@ use Illuminate\Database\Migrations\Migration;
 
 /**
  * Foreign keys loader migration
- * Class ForeignMigration
- * @package Diplodocker
  */
 class CommentsLoaderMigration extends Migration
 {
