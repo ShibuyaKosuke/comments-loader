@@ -9,7 +9,7 @@
 
 ### Install
 * Install [laravel](https://laravel.com/docs/master/installation) =)
-* `composer require diplodocker/comments-loader`
+* `composer require --dev diplodocker/comments-loader`
 
 ### Use class
 ```php
