@@ -1,5 +1,5 @@
 <?php
-declare(strict_types=1);
+declare(strict_types = 1);
 
 namespace Diplodocker\Concerns;
 
@@ -8,8 +8,6 @@ use Illuminate\Support\Facades\DB;
 /**
  * Trait for the apply comments to tables
  * @see README.md
- * Trait CommentsLoader
- * @package Database\Concerns
  */
 trait CommentsLoader
 {

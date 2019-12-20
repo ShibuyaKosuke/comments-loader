@@ -1,5 +1,5 @@
 <?php
-declare(strict_types=1);
+declare(strict_types = 1);
 
 namespace Diplodocker;
 
@@ -8,8 +8,6 @@ use Illuminate\Database\Migrations\Migration;
 
 /**
  * Foreign keys loader migration
- * Class ForeignMigration
- * @package Diplodocker
  */
 class CommentsLoaderMigration extends Migration
 {
