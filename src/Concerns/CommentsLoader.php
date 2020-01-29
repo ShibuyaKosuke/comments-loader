@@ -12,15 +12,26 @@ use Illuminate\Support\Facades\DB;
 trait CommentsLoader
 {
     /**
-     * Table comments loader
+     * Set multiple tables comments
      */
     protected function loadTableComments(): void
     {
         foreach ($this->comments as $table => $comment) {
-            $this->executeAlterComment(
-                $this->getAlterQuery($table, $comment)
-            );
+            $this->setTableComment($table, $comment);
         }
+    }
+
+
+    /**
+     * Set single table comment
+     * @param string $table Database table name
+     * @param string $comment Database table comment
+     */
+    private function setTableComment(string $table, string $comment): void
+    {
+        $this->executeAlterComment(
+            $this->getAlterQuery($table, $comment)
+        );
     }
 
     /**

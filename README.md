@@ -66,3 +66,9 @@ class SomeMigrationFileName extends Migration
     }
 
 ```
+###Alternative way
+In both previous examples (use class or trait), you can use `setTableComment()` instead `$comment` array with `loadTableComments()`.
+```php
+    $this->setTableComment('users', 'Users table');
+    $this->setTableComment('documents', 'Documents table');
+```
