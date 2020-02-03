@@ -12,7 +12,30 @@
 * Install [laravel](https://laravel.com/docs/master/installation) =)
 * `composer require --dev diplodocker/comments-loader`
 
-### Use class
+### Usage in migration (MySQL or Postgres)
+
+```php
+/**
+ * Run the migrations.
+ *
+ * @return void
+ */
+public function up()
+{
+    Schema::create('test', function (Blueprint $table) {
+        $table->bigIncrements('id');
+        $table->timestamps();
+        $table->tableComment('its sample table comment');
+    });
+    
+    // or change on existing table
+    Schema::table('test', function(Blueprint $table) {
+        $table->tableComment('its changed comment');
+    });
+}
+```
+
+### Or use class (only for MySQL)
 ```php
 <?php
 
