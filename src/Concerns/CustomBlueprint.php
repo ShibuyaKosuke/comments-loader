@@ -8,6 +8,8 @@ use Diplodocker\Database\Blueprint;
 /**
  * Trait CustomBlueprint
  * @package Diplodocker\Concerns
+ *
+ * phpcs:disable SlevomatCodingStandard.Functions.StaticClosure
  */
 trait CustomBlueprint
 {
