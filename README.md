@@ -12,7 +12,7 @@
 * Install [laravel](https://laravel.com/docs/master/installation) =)
 * `composer require --dev diplodocker/comments-loader`
 
-#### lumen
+#### Lumen provider setup
 
 `bootstrap/app.php`
 
