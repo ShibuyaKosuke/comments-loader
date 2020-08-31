@@ -12,6 +12,14 @@
 * Install [laravel](https://laravel.com/docs/master/installation) =)
 * `composer require --dev diplodocker/comments-loader`
 
+#### Lumen provider setup
+
+`bootstrap/app.php`
+
+```php
+$app->register(Diplodocker\Providers\CommentsLoaderProvider::class);
+```
+
 ### Usage in migration (MySQL or Postgres)
 
 ```php
